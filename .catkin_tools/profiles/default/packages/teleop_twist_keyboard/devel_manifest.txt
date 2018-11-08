@@ -1,0 +1,4 @@
+teleop_twist_keyboard
+/home/lucasbatista/catkin_ws2/devel/.private/teleop_twist_keyboard/lib/pkgconfig/teleop_twist_keyboard.pc /home/lucasbatista/catkin_ws2/devel/lib/pkgconfig/teleop_twist_keyboard.pc
+/home/lucasbatista/catkin_ws2/devel/.private/teleop_twist_keyboard/share/teleop_twist_keyboard/cmake/teleop_twist_keyboardConfig.cmake /home/lucasbatista/catkin_ws2/devel/share/teleop_twist_keyboard/cmake/teleop_twist_keyboardConfig.cmake
+/home/lucasbatista/catkin_ws2/devel/.private/teleop_twist_keyboard/share/teleop_twist_keyboard/cmake/teleop_twist_keyboardConfig-version.cmake /home/lucasbatista/catkin_ws2/devel/share/teleop_twist_keyboard/cmake/teleop_twist_keyboardConfig-version.cmake

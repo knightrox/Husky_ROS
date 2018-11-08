@@ -1,0 +1,8 @@
+prefix=/home/lucasbatista/catkin_test/install
+
+Name: husky_highlevel_controller
+Description: Description of husky_highlevel_controller
+Version: 0.1.0
+Cflags: -I/home/lucasbatista/catkin_test/install/include
+Libs: -L/home/lucasbatista/catkin_test/install/lib 
+Requires: roscpp sensor_msgs geometry_msgs tf

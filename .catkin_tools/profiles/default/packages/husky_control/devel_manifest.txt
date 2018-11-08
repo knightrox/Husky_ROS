@@ -1,0 +1,4 @@
+husky/husky_control
+/home/lucasbatista/catkin_ws2/devel/.private/husky_control/lib/pkgconfig/husky_control.pc /home/lucasbatista/catkin_ws2/devel/lib/pkgconfig/husky_control.pc
+/home/lucasbatista/catkin_ws2/devel/.private/husky_control/share/husky_control/cmake/husky_controlConfig-version.cmake /home/lucasbatista/catkin_ws2/devel/share/husky_control/cmake/husky_controlConfig-version.cmake
+/home/lucasbatista/catkin_ws2/devel/.private/husky_control/share/husky_control/cmake/husky_controlConfig.cmake /home/lucasbatista/catkin_ws2/devel/share/husky_control/cmake/husky_controlConfig.cmake

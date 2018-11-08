@@ -1,0 +1,8 @@
+prefix=/home/lucasbatista/catkin_test/install
+
+Name: husky_msgs
+Description: Description of husky_msgs
+Version: 0.3.1
+Cflags: -I/home/lucasbatista/catkin_test/install/include
+Libs: -L/home/lucasbatista/catkin_test/install/lib 
+Requires: std_msgs message_runtime

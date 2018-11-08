@@ -1,0 +1,8 @@
+prefix=/home/lucasbatista/catkin_ws2/install
+
+Name: change
+Description: Description of change
+Version: 0.6.1
+Cflags: 
+Libs: -L/home/lucasbatista/catkin_ws2/install/lib 
+Requires: 

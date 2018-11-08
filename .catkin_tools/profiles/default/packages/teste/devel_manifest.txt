@@ -1,0 +1,7 @@
+teste
+/home/lucasbatista/catkin_ws2/devel/.private/teste/lib/pkgconfig/teste.pc /home/lucasbatista/catkin_ws2/devel/lib/pkgconfig/teste.pc
+/home/lucasbatista/catkin_ws2/devel/.private/teste/lib/teste/listener /home/lucasbatista/catkin_ws2/devel/lib/teste/listener
+/home/lucasbatista/catkin_ws2/devel/.private/teste/lib/teste/talker /home/lucasbatista/catkin_ws2/devel/lib/teste/talker
+/home/lucasbatista/catkin_ws2/devel/.private/teste/lib/teste/controller /home/lucasbatista/catkin_ws2/devel/lib/teste/controller
+/home/lucasbatista/catkin_ws2/devel/.private/teste/share/teste/cmake/testeConfig-version.cmake /home/lucasbatista/catkin_ws2/devel/share/teste/cmake/testeConfig-version.cmake
+/home/lucasbatista/catkin_ws2/devel/.private/teste/share/teste/cmake/testeConfig.cmake /home/lucasbatista/catkin_ws2/devel/share/teste/cmake/testeConfig.cmake

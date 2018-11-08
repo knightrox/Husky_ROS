@@ -1,0 +1,8 @@
+prefix=/home/lucasbatista/catkin_test/install
+
+Name: husky_description
+Description: Description of husky_description
+Version: 0.3.1
+Cflags: 
+Libs: -L/home/lucasbatista/catkin_test/install/lib 
+Requires: 

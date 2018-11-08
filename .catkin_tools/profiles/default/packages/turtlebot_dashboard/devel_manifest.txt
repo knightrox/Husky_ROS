@@ -1,0 +1,4 @@
+turtlebot/src/turtlebot_interactions/turtlebot_dashboard
+/home/lucasbatista/catkin_ws2/devel/.private/turtlebot_dashboard/lib/pkgconfig/turtlebot_dashboard.pc /home/lucasbatista/catkin_ws2/devel/lib/pkgconfig/turtlebot_dashboard.pc
+/home/lucasbatista/catkin_ws2/devel/.private/turtlebot_dashboard/share/turtlebot_dashboard/cmake/turtlebot_dashboardConfig-version.cmake /home/lucasbatista/catkin_ws2/devel/share/turtlebot_dashboard/cmake/turtlebot_dashboardConfig-version.cmake
+/home/lucasbatista/catkin_ws2/devel/.private/turtlebot_dashboard/share/turtlebot_dashboard/cmake/turtlebot_dashboardConfig.cmake /home/lucasbatista/catkin_ws2/devel/share/turtlebot_dashboard/cmake/turtlebot_dashboardConfig.cmake

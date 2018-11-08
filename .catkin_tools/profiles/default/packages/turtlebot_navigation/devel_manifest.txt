@@ -1,0 +1,6 @@
+turtlebot/src/turtlebot_apps/turtlebot_navigation
+/home/lucasbatista/catkin_ws2/devel/.private/turtlebot_navigation/lib/pkgconfig/turtlebot_navigation.pc /home/lucasbatista/catkin_ws2/devel/lib/pkgconfig/turtlebot_navigation.pc
+/home/lucasbatista/catkin_ws2/devel/.private/turtlebot_navigation/lib/turtlebot_navigation/laser_footprint_filter /home/lucasbatista/catkin_ws2/devel/lib/turtlebot_navigation/laser_footprint_filter
+/home/lucasbatista/catkin_ws2/devel/.private/turtlebot_navigation/etc/catkin/profile.d/25.turtlebot-navigation.sh /home/lucasbatista/catkin_ws2/devel/etc/catkin/profile.d/25.turtlebot-navigation.sh
+/home/lucasbatista/catkin_ws2/devel/.private/turtlebot_navigation/share/turtlebot_navigation/cmake/turtlebot_navigationConfig.cmake /home/lucasbatista/catkin_ws2/devel/share/turtlebot_navigation/cmake/turtlebot_navigationConfig.cmake
+/home/lucasbatista/catkin_ws2/devel/.private/turtlebot_navigation/share/turtlebot_navigation/cmake/turtlebot_navigationConfig-version.cmake /home/lucasbatista/catkin_ws2/devel/share/turtlebot_navigation/cmake/turtlebot_navigationConfig-version.cmake

@@ -1,0 +1,5 @@
+husky_highlevel_controller
+/home/lucasbatista/catkin_ws2/devel/.private/husky_highlevel_controller/lib/pkgconfig/husky_highlevel_controller.pc /home/lucasbatista/catkin_ws2/devel/lib/pkgconfig/husky_highlevel_controller.pc
+/home/lucasbatista/catkin_ws2/devel/.private/husky_highlevel_controller/lib/husky_highlevel_controller/husky_highlevel_controller /home/lucasbatista/catkin_ws2/devel/lib/husky_highlevel_controller/husky_highlevel_controller
+/home/lucasbatista/catkin_ws2/devel/.private/husky_highlevel_controller/share/husky_highlevel_controller/cmake/husky_highlevel_controllerConfig-version.cmake /home/lucasbatista/catkin_ws2/devel/share/husky_highlevel_controller/cmake/husky_highlevel_controllerConfig-version.cmake
+/home/lucasbatista/catkin_ws2/devel/.private/husky_highlevel_controller/share/husky_highlevel_controller/cmake/husky_highlevel_controllerConfig.cmake /home/lucasbatista/catkin_ws2/devel/share/husky_highlevel_controller/cmake/husky_highlevel_controllerConfig.cmake

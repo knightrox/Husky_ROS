@@ -1,0 +1,4 @@
+change
+/home/lucasbatista/catkin_ws2/devel/.private/change/lib/pkgconfig/change.pc /home/lucasbatista/catkin_ws2/devel/lib/pkgconfig/change.pc
+/home/lucasbatista/catkin_ws2/devel/.private/change/share/change/cmake/changeConfig.cmake /home/lucasbatista/catkin_ws2/devel/share/change/cmake/changeConfig.cmake
+/home/lucasbatista/catkin_ws2/devel/.private/change/share/change/cmake/changeConfig-version.cmake /home/lucasbatista/catkin_ws2/devel/share/change/cmake/changeConfig-version.cmake

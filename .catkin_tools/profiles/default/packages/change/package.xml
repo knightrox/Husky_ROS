@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>change</name>
+  <version>0.6.1</version>
+  <description>change</description>
+
+  <maintainer email="namniart@gmail.com">Austin fdfdfdHendrix</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://wiki.ros.org/teldfdfdfdeop_twist_keyboard</url>
+
+  <author>Graylin Trevofdfdfdfdr Jay</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>rospy</run_depend>
+</package>

@@ -1,0 +1,5 @@
+turtlebot/src/turtlebot_create_desktop/create_dashboard
+/home/lucasbatista/catkin_ws2/devel/.private/create_dashboard/lib/python2.7/dist-packages/create_dashboard/__init__.py /home/lucasbatista/catkin_ws2/devel/lib/python2.7/dist-packages/create_dashboard/__init__.py
+/home/lucasbatista/catkin_ws2/devel/.private/create_dashboard/lib/pkgconfig/create_dashboard.pc /home/lucasbatista/catkin_ws2/devel/lib/pkgconfig/create_dashboard.pc
+/home/lucasbatista/catkin_ws2/devel/.private/create_dashboard/share/create_dashboard/cmake/create_dashboardConfig.cmake /home/lucasbatista/catkin_ws2/devel/share/create_dashboard/cmake/create_dashboardConfig.cmake
+/home/lucasbatista/catkin_ws2/devel/.private/create_dashboard/share/create_dashboard/cmake/create_dashboardConfig-version.cmake /home/lucasbatista/catkin_ws2/devel/share/create_dashboard/cmake/create_dashboardConfig-version.cmake
