@@ -84,6 +84,7 @@ HuskyHighlevelController::HuskyHighlevelController(ros::NodeHandle& nodeHandle) 
       std::cout << "Moving Foward" << std::endl;
       msg_pub.linear.x = 2.5;
       msg_pub.angular.z = 0.0;
+
       if(min_test<1.5)
       {
         count = 1;
@@ -103,7 +104,7 @@ HuskyHighlevelController::HuskyHighlevelController(ros::NodeHandle& nodeHandle) 
     }
     pub_vel.publish(msg_pub);
 
-   ros::spinOnce(); //linha para continuar rodando código
+   ros::spinOnce(); //linha para continuar rodando código e chamar o callback
 
   }
 

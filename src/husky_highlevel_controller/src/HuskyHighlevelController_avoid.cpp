@@ -52,7 +52,7 @@ HuskyHighlevelController::HuskyHighlevelController(ros::NodeHandle& nodeHandle) 
   ros::Subscriber sub = husky_teste.subscribe("/scan", 1, chatterCallback);
  //Inicia o subscriber //subscreve no topico "/scan"
 
-  ros::Publisher pub_vel = husky_teste.advertise<geometry_msgs::Twist>("/husky_velocity_controller/cmd_vel",10);
+  ros::Publisher pub_vel = husky_teste.advertise<geometry_msgs::Twist>("/cmd_vel",10);
 
   ros::Rate loop_rate(5);
 
@@ -64,11 +64,14 @@ HuskyHighlevelController::HuskyHighlevelController(ros::NodeHandle& nodeHandle) 
     std::cout << "Angle: " << angle << std::endl;
     int angle_min = 352;
     int angle_gre = 368;
-    int count ;
+
 
     if(angle <= angle_min && count == 0 )
     {
 
+      loop_rate.sleep();
+
+      msg_pub.linear.x = 0.0;
       msg_pub.angular.z = 0.1;
       cout << "Angular Min Movement" << std::endl;
       loop_rate.sleep();
@@ -76,6 +79,9 @@ HuskyHighlevelController::HuskyHighlevelController(ros::NodeHandle& nodeHandle) 
     }
     else if(angle>=angle_gre && count == 0)
     {
+
+      loop_rate.sleep();
+      msg_pub.linear.x = 0.0;
       msg_pub.angular.z = -0.1;
 
       cout << "Angular Gre Movement" << std::endl;
@@ -85,11 +91,11 @@ HuskyHighlevelController::HuskyHighlevelController(ros::NodeHandle& nodeHandle) 
     }
     else if(angle<angle_gre && angle>angle_min && count == 0)
     {
-      std::cout << "Moving Foward" << std::endl;
-      msg_pub.linear.x = 2.5;
+      std::cout << "Moving Foward 2" << std::endl;
+      msg_pub.linear.x = 1.5;
       msg_pub.angular.z = 0.0;
 
-      if(min_test<2.0)
+      if(min_test < 1.0 && angle<angle_gre && angle>angle_min)
       {
         count = 1;
         cout << "teste 1" << std::endl;
@@ -101,7 +107,7 @@ HuskyHighlevelController::HuskyHighlevelController(ros::NodeHandle& nodeHandle) 
     else if(count == 1)
     {
 
-      std::cout << "Moving Foward" << std::endl;
+      std::cout << "Obstacle Tracking" << std::endl;
       msg_pub.linear.x = 0.0;
       msg_pub.angular.z = -0.1;
       loop_rate.sleep();
@@ -109,15 +115,19 @@ HuskyHighlevelController::HuskyHighlevelController(ros::NodeHandle& nodeHandle) 
       if(angle >= 172 && angle <= 188){
         count = 2;
         cout << "teste 1" << std::endl;
+        std::cout << "count " << count << std::endl;
       }
     }
      else if(count==2){
         msg_pub.linear.x = 1.0;
         msg_pub.angular.z = 0.0;
         loop_rate.sleep();
+
+        std::cout << "Obstacle Tracking" << std::endl;
         if(angle >= 30 && angle <= 46){
           count = 3;
           cout << "teste 1" << std::endl;
+          std::cout << "count " << count << std::endl;
         }
      }
     else if(count==3){
@@ -133,7 +143,7 @@ HuskyHighlevelController::HuskyHighlevelController(ros::NodeHandle& nodeHandle) 
     }
 
    pub_vel.publish(msg_pub);
-   ros::spinOnce(); //linha para continuar rodando código
+   ros::spinOnce(); //linha para continuar rodando código e fazer o scan
 
   }
 }

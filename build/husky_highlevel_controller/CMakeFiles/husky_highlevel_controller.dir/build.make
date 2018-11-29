@@ -81,40 +81,40 @@ husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/husky_h
 husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/husky_highlevel_controller_node.cpp.o.provides.build: husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/husky_highlevel_controller_node.cpp.o
 
 
-husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.o: husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/flags.make
-husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.o: /home/lucasbatista/catkin_test/src/husky_highlevel_controller/src/Husky_talker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucasbatista/catkin_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.o"
-	cd /home/lucasbatista/catkin_test/build/husky_highlevel_controller && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.o -c /home/lucasbatista/catkin_test/src/husky_highlevel_controller/src/Husky_talker.cpp
+husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.o: husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/flags.make
+husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.o: /home/lucasbatista/catkin_test/src/husky_highlevel_controller/src/HuskyHighlevelController_avoid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucasbatista/catkin_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.o"
+	cd /home/lucasbatista/catkin_test/build/husky_highlevel_controller && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.o -c /home/lucasbatista/catkin_test/src/husky_highlevel_controller/src/HuskyHighlevelController_avoid.cpp
 
-husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.i"
-	cd /home/lucasbatista/catkin_test/build/husky_highlevel_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasbatista/catkin_test/src/husky_highlevel_controller/src/Husky_talker.cpp > CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.i
+husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.i"
+	cd /home/lucasbatista/catkin_test/build/husky_highlevel_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasbatista/catkin_test/src/husky_highlevel_controller/src/HuskyHighlevelController_avoid.cpp > CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.i
 
-husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.s"
-	cd /home/lucasbatista/catkin_test/build/husky_highlevel_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasbatista/catkin_test/src/husky_highlevel_controller/src/Husky_talker.cpp -o CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.s
+husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.s"
+	cd /home/lucasbatista/catkin_test/build/husky_highlevel_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasbatista/catkin_test/src/husky_highlevel_controller/src/HuskyHighlevelController_avoid.cpp -o CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.s
 
-husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.o.requires:
+husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.o.requires:
 
-.PHONY : husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.o.requires
+.PHONY : husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.o.requires
 
-husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.o.provides: husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.o.requires
-	$(MAKE) -f husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/build.make husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.o.provides.build
-.PHONY : husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.o.provides
+husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.o.provides: husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.o.requires
+	$(MAKE) -f husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/build.make husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.o.provides.build
+.PHONY : husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.o.provides
 
-husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.o.provides.build: husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.o
+husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.o.provides.build: husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.o
 
 
 # Object files for target husky_highlevel_controller
 husky_highlevel_controller_OBJECTS = \
 "CMakeFiles/husky_highlevel_controller.dir/src/husky_highlevel_controller_node.cpp.o" \
-"CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.o"
+"CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.o"
 
 # External object files for target husky_highlevel_controller
 husky_highlevel_controller_EXTERNAL_OBJECTS =
 
 /home/lucasbatista/catkin_test/devel/lib/husky_highlevel_controller/husky_highlevel_controller: husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/husky_highlevel_controller_node.cpp.o
-/home/lucasbatista/catkin_test/devel/lib/husky_highlevel_controller/husky_highlevel_controller: husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.o
+/home/lucasbatista/catkin_test/devel/lib/husky_highlevel_controller/husky_highlevel_controller: husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.o
 /home/lucasbatista/catkin_test/devel/lib/husky_highlevel_controller/husky_highlevel_controller: husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/build.make
 /home/lucasbatista/catkin_test/devel/lib/husky_highlevel_controller/husky_highlevel_controller: /opt/ros/kinetic/lib/libtf.so
 /home/lucasbatista/catkin_test/devel/lib/husky_highlevel_controller/husky_highlevel_controller: /opt/ros/kinetic/lib/libtf2_ros.so
@@ -150,7 +150,7 @@ husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/build: /hom
 .PHONY : husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/build
 
 husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/requires: husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/husky_highlevel_controller_node.cpp.o.requires
-husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/requires: husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.o.requires
+husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/requires: husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.o.requires
 
 .PHONY : husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/requires
 

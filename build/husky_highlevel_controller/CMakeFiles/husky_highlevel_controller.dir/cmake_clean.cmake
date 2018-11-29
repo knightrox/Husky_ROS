@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/husky_highlevel_controller.dir/src/husky_highlevel_controller_node.cpp.o"
-  "CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.o"
+  "CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.o"
   "/home/lucasbatista/catkin_test/devel/lib/husky_highlevel_controller/husky_highlevel_controller.pdb"
   "/home/lucasbatista/catkin_test/devel/lib/husky_highlevel_controller/husky_highlevel_controller"
 )

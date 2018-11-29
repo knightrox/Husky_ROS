@@ -405,32 +405,32 @@ husky_highlevel_controller/fast:
 	cd /home/lucasbatista/catkin_test/build && $(MAKE) -f husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/build.make husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/build
 .PHONY : husky_highlevel_controller/fast
 
-src/Husky_talker.o: src/Husky_talker.cpp.o
+src/HuskyHighlevelController_avoid.o: src/HuskyHighlevelController_avoid.cpp.o
 
-.PHONY : src/Husky_talker.o
+.PHONY : src/HuskyHighlevelController_avoid.o
 
 # target to build an object file
-src/Husky_talker.cpp.o:
-	cd /home/lucasbatista/catkin_test/build && $(MAKE) -f husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/build.make husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.o
-.PHONY : src/Husky_talker.cpp.o
+src/HuskyHighlevelController_avoid.cpp.o:
+	cd /home/lucasbatista/catkin_test/build && $(MAKE) -f husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/build.make husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.o
+.PHONY : src/HuskyHighlevelController_avoid.cpp.o
 
-src/Husky_talker.i: src/Husky_talker.cpp.i
+src/HuskyHighlevelController_avoid.i: src/HuskyHighlevelController_avoid.cpp.i
 
-.PHONY : src/Husky_talker.i
+.PHONY : src/HuskyHighlevelController_avoid.i
 
 # target to preprocess a source file
-src/Husky_talker.cpp.i:
-	cd /home/lucasbatista/catkin_test/build && $(MAKE) -f husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/build.make husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.i
-.PHONY : src/Husky_talker.cpp.i
+src/HuskyHighlevelController_avoid.cpp.i:
+	cd /home/lucasbatista/catkin_test/build && $(MAKE) -f husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/build.make husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.i
+.PHONY : src/HuskyHighlevelController_avoid.cpp.i
 
-src/Husky_talker.s: src/Husky_talker.cpp.s
+src/HuskyHighlevelController_avoid.s: src/HuskyHighlevelController_avoid.cpp.s
 
-.PHONY : src/Husky_talker.s
+.PHONY : src/HuskyHighlevelController_avoid.s
 
 # target to generate assembly for a file
-src/Husky_talker.cpp.s:
-	cd /home/lucasbatista/catkin_test/build && $(MAKE) -f husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/build.make husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.s
-.PHONY : src/Husky_talker.cpp.s
+src/HuskyHighlevelController_avoid.cpp.s:
+	cd /home/lucasbatista/catkin_test/build && $(MAKE) -f husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/build.make husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.s
+.PHONY : src/HuskyHighlevelController_avoid.cpp.s
 
 src/husky_highlevel_controller_node.o: src/husky_highlevel_controller_node.cpp.o
 
@@ -488,9 +488,9 @@ help:
 	@echo "... husky_highlevel_controller"
 	@echo "... install/local"
 	@echo "... test"
-	@echo "... src/Husky_talker.o"
-	@echo "... src/Husky_talker.i"
-	@echo "... src/Husky_talker.s"
+	@echo "... src/HuskyHighlevelController_avoid.o"
+	@echo "... src/HuskyHighlevelController_avoid.i"
+	@echo "... src/HuskyHighlevelController_avoid.s"
 	@echo "... src/husky_highlevel_controller_node.o"
 	@echo "... src/husky_highlevel_controller_node.i"
 	@echo "... src/husky_highlevel_controller_node.s"

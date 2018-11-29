@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lucasbatista/catkin_test/src/husky_highlevel_controller/src/Husky_talker.cpp" "/home/lucasbatista/catkin_test/build/husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/Husky_talker.cpp.o"
+  "/home/lucasbatista/catkin_test/src/husky_highlevel_controller/src/HuskyHighlevelController_avoid.cpp" "/home/lucasbatista/catkin_test/build/husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/HuskyHighlevelController_avoid.cpp.o"
   "/home/lucasbatista/catkin_test/src/husky_highlevel_controller/src/husky_highlevel_controller_node.cpp" "/home/lucasbatista/catkin_test/build/husky_highlevel_controller/CMakeFiles/husky_highlevel_controller.dir/src/husky_highlevel_controller_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
