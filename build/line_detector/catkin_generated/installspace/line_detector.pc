@@ -1,0 +1,8 @@
+prefix=/home/lucasbatista/catkin_test/install
+
+Name: line_detector
+Description: Description of line_detector
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lucasbatista/catkin_test/install/lib 
+Requires: 
